@@ -2,9 +2,9 @@ package abstractClass;
 
 public class Main {
 	public static void main(String[] args) {
-		Animal giraffe = new Giraffe();
+		Car audi = new Car();
 
-		giraffe.makeNoise();
-		giraffe.run();
+		audi.start();
+		audi.drive();
 	}
 }
