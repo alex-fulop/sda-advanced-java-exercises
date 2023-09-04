@@ -13,5 +13,6 @@ public class Main {
 
 		savingsAccount.displayBalance();
 		checkingAccount.displayBalance();
+
 	}
 }
