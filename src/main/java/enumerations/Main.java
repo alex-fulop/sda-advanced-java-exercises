@@ -2,20 +2,21 @@ package enumerations;
 
 public class Main {
 	public static void main(String[] args) {
-		DaysOfTheWeek day = DaysOfTheWeek.FRIDAY;
+//		DaysOfTheWeek today = DaysOfTheWeek.TUESDAY;
+//
+//		if(today == DaysOfTheWeek.FRIDAY) {
+//			System.out.println("YAY TODAY IS FRIDAY");
+//		} else if(today == DaysOfTheWeek.SATURDAY || today == DaysOfTheWeek.SUNDAY) {
+//			System.out.println("It's weekend");
+//		} else {
+//			System.out.println("Working :/");
+//		}
 
-		if(day == DaysOfTheWeek.FRIDAY) {
-			System.out.println("YEY IT'S FRIDAY AGAIN");
-		} else if(day == DaysOfTheWeek.SATURDAY || day == DaysOfTheWeek.SUNDAY) {
-			System.out.println("It's weekend I'm relaxing :) ");
-		} else {
-			System.out.println("I'm working :/");
-		}
+		Sizes mySize = Sizes.L;
 
-		Size sizeOfJeans = Size.XL;
+		System.out.println("My size is: " + mySize);
+		System.out.println("My size is: " + mySize.getSizeInNrs());
 
-		System.out.println("Your jeans are of size: " + sizeOfJeans);
-		System.out.println("Your jeans are of size: " + sizeOfJeans.getSizeInNrs());
-
+		mySize.evaluateSize(mySize);
 	}
 }
