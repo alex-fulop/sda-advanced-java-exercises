@@ -1,0 +1,4 @@
+Total Salary: 265000
+Average Salary: 66250
+Highest Paid EmployeeAlice
+Highest Paid Employee Salary 80000

@@ -10,7 +10,7 @@ public class InputOutput {
 //		crea un obiect pentru lucrul cu fisier
 		File file = new File("resources/catei.txt");
 
-		if (file.exists()) {
+//		if (file.exists()) {
 			System.out.println("That file exists! :0");
 			System.out.println(file.getAbsoluteFile());
 			System.out.println(file.getPath());
@@ -40,8 +40,8 @@ public class InputOutput {
 			} catch (IOException ioe) {
 				System.out.println(ioe.getMessage());
 			}
-		} else {
-			System.out.println("That file doesn't exist :(");
-		}
+//		} else {
+//			System.out.println("That file doesn't exist :(");
+//		}
 	}
 }
